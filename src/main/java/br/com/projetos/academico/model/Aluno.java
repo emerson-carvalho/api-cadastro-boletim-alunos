@@ -22,6 +22,7 @@ public class Aluno {
 
     @Column(unique = true)
     private Integer matricula;
+
     @Embedded
     private Boletim boletim;
 }
